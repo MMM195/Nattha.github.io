@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เรือนริมธาร — รีสอร์ทเรือนไม้สักริมน้ำ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="mainnav">
+  <div class="brand"><span class="mark"></span> เรือนริมธาร</div>
+  <div class="navlinks">
+    <a href="#rooms">ห้องพัก</a>
+    <a href="#amenities">สิ่งอำนวยความสะดวก</a>
+    <a href="#reviews">รีวิว</a>
+    <a href="#contact">ติดต่อ</a>
+  </div>
+  <a href="#book" class="nav-cta">จองเลย</a>
+</nav>
+
+<section class="hero">
+  <div class="lantern" style="left:14%; top:22%; animation-delay:0s;"></div>
+  <div class="lantern" style="left:78%; top:16%; animation-delay:2s;"></div>
+  <div class="lantern" style="left:60%; top:34%; animation-delay:4s;"></div>
+  <div class="lantern" style="left:32%; top:40%; animation-delay:1s;"></div>
+  <div class="river-glow"></div>
+  <span class="eyebrow">รีสอร์ทเรือนไม้สัก · ริมแม่น้ำ</span>
+  <h1>ตื่นมาพร้อมไอหมอก<br><em>และเสียงน้ำไหลใต้ถุนเรือน</em></h1>
+  <p>เรือนไม้สักดั้งเดิมริมแม่น้ำ ท่ามกลางสวนร่มรื่นและแสงตะเกียงยามค่ำคืน ที่พักที่ให้คุณช้าลงและรู้สึกถึงบ้าน</p>
+</section>
+
+<div class="booking-bar" id="book">
+  <div class="booking-card">
+    <div class="field">
+      <label>วันเข้าพัก</label>
+      <input type="date">
+    </div>
+    <div class="field">
+      <label>วันออก</label>
+      <input type="date">
+    </div>
+    <div class="field">
+      <label>ผู้เข้าพัก</label>
+      <select>
+        <option>2 ผู้ใหญ่</option>
+        <option>1 ผู้ใหญ่</option>
+        <option>2 ผู้ใหญ่ 1 เด็ก</option>
+        <option>4 ผู้ใหญ่</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>ประเภทห้อง</label>
+      <select>
+        <option>ทั้งหมด</option>
+        <option>เรือนริมน้ำ</option>
+        <option>เรือนสวน</option>
+        <option>เรือนหลังคาจาก</option>
+      </select>
+    </div>
+    <button class="search-btn">ค้นหาห้องว่าง</button>
+  </div>
+</div>
+
+<section class="section" id="rooms">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">ห้องพัก</span>
+      <h2>เลือกเรือนที่ใช่สำหรับคุณ</h2>
+      <p>ทุกเรือนสร้างจากไม้สักเก่าที่รื้อถอนอย่างพิถีพิถัน ตกแต่งเรียบง่ายเพื่อให้ธรรมชาติรอบตัวเป็นพระเอก</p>
+    </div>
+    <div class="rooms" id="rooms-grid">
+      <p class="rooms-empty" style="grid-column:1/-1; text-align:center; opacity:.6;">กำลังโหลดห้องพัก…</p>
+    </div>
+  </div>
+</section>
+
+<section class="amenities" id="amenities">
+  <div class="wrap section" style="padding-top:80px;">
+    <div class="section-head" style="text-align:center;">
+      <span class="tag" style="color:var(--gold-soft);">สิ่งอำนวยความสะดวก</span>
+      <h2 style="color:var(--paper);">ทุกรายละเอียดเพื่อการพักผ่อนที่แท้จริง</h2>
+    </div>
+  </div>
+  <div class="amen-grid">
+    <div class="amen-item">
+      <div class="amen-icon">☕</div>
+      <h4>มื้อเช้าริมน้ำ</h4>
+      <p>อาหารเช้าท้องถิ่นเสิร์ฟที่ระเบียงห้องพัก</p>
+    </div>
+    <div class="amen-item">
+      <div class="amen-icon">🛶</div>
+      <h4>พายเรือชมแม่น้ำ</h4>
+      <p>ล่องเรือพายยามเช้าตรู่ พร้อมไกด์ท้องถิ่น</p>
+    </div>
+    <div class="amen-item">
+      <div class="amen-icon">♨</div>
+      <h4>สปาแบบไทย</h4>
+      <p>นวดแผนไทยด้วยสมุนไพรจากสวนของเรา</p>
+    </div>
+    <div class="amen-item">
+      <div class="amen-icon">🕯</div>
+      <h4>อาหารค่ำใต้แสงตะเกียง</h4>
+      <p>โต๊ะส่วนตัวริมน้ำ พร้อมเมนูตามฤดูกาล</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="wrap testi-wrap">
+    <p class="testi-quote">"ที่นี่ทำให้เราลืมเวลาไปเลย เสียงน้ำไหลใต้เรือนกับแสงตะเกียงยามค่ำ มันคือความทรงจำที่ไม่ลืม"</p>
+    <p class="testi-name">คุณนภัส ธีระวงศ์</p>
+    <p class="testi-role">เข้าพักเดือนพฤษภาคม 2569</p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>พร้อมให้แม่น้ำกล่อมคุณให้หลับใหลหรือยัง?</h2>
+  <p>ห้องพักมีจำนวนจำกัดในแต่ละเดือน จองล่วงหน้าเพื่อเรือนริมน้ำในฝันของคุณ</p>
+  <a href="#book" class="search-btn">ตรวจสอบห้องว่าง</a>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>เรือนริมธาร</h4>
+        <p style="opacity:.6; max-width:280px;">99 หมู่ 4 ตำบลริมน้ำ อำเภอเมือง จังหวัดกาญจนบุรี 71000</p>
+      </div>
+      <div>
+        <h4>ติดต่อ</h4>
+        <a href="tel:+6634000000">034-000-000</a>
+        <a href="mailto:stay@ruenrimtan.com">stay@ruenrimtan.com</a>
+      </div>
+      <div>
+        <h4>ลิงก์</h4>
+        <a href="#rooms">ห้องพัก</a>
+        <a href="#amenities">สิ่งอำนวยความสะดวก</a>
+        <a href="#reviews">รีวิว</a>
+      </div>
+      <div>
+        <h4>ติดตามเรา</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2569 เรือนริมธาร รีสอร์ท สงวนลิขสิทธิ์</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

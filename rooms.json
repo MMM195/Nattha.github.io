@@ -1,0 +1,38 @@
+[
+  {
+    "id": "riverside-01",
+    "number": "01",
+    "category": "เรือนริมน้ำ",
+    "categoryLabel": "ริมน้ำ",
+    "sceneClass": "scene-river",
+    "name": "เรือนริมธาร",
+    "description": "ระเบียงยื่นเหนือผิวน้ำ ฟังเสียงกระแสธารตลอดคืน",
+    "price": 3200,
+    "capacity": 2,
+    "available": true
+  },
+  {
+    "id": "garden-01",
+    "number": "02",
+    "category": "เรือนสวน",
+    "categoryLabel": "สวน",
+    "sceneClass": "scene-garden",
+    "name": "เรือนกลางสวน",
+    "description": "ล้อมรอบด้วยต้นไม้ใหญ่และแปลงสมุนไพร ร่มรื่นตลอดวัน",
+    "price": 2600,
+    "capacity": 2,
+    "available": true
+  },
+  {
+    "id": "thatch-01",
+    "number": "03",
+    "category": "เรือนหลังคาจาก",
+    "categoryLabel": "หลังคาจาก",
+    "sceneClass": "scene-thatch",
+    "name": "เรือนหลังคาจาก",
+    "description": "สไตล์เรือนไทยดั้งเดิม อบอุ่นด้วยกลิ่นไม้และแสงตะเกียง",
+    "price": 3900,
+    "capacity": 4,
+    "available": true
+  }
+]
