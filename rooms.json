@@ -1,0 +1,80 @@
+[
+  {
+    "id": "riverside-01",
+    "number": "01",
+    "category": "เรือนริมน้ำ",
+    "categoryLabel": "ริมน้ำ",
+    "sceneClass": "scene-river",
+    "name": "เรือนริมธาร",
+    "description": "ระเบียงยื่นเหนือผิวน้ำ ฟังเสียงกระแสธารตลอดคืน",
+    "price": 3200,
+    "capacity": 2,
+    "quantity": 2,
+    "available": true
+  },
+  {
+    "id": "riverside-02",
+    "number": "04",
+    "category": "เรือนริมน้ำ",
+    "categoryLabel": "ริมน้ำ",
+    "sceneClass": "scene-river",
+    "name": "เรือนริมสาย",
+    "description": "มุมเงียบสงบปลายแม่น้ำ เหมาะกับคู่รักที่อยากได้ความเป็นส่วนตัว",
+    "price": 3500,
+    "capacity": 2,
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": "garden-01",
+    "number": "02",
+    "category": "เรือนสวน",
+    "categoryLabel": "สวน",
+    "sceneClass": "scene-garden",
+    "name": "เรือนกลางสวน",
+    "description": "ล้อมรอบด้วยต้นไม้ใหญ่และแปลงสมุนไพร ร่มรื่นตลอดวัน",
+    "price": 2600,
+    "capacity": 4,
+    "quantity": 2,
+    "available": true
+  },
+  {
+    "id": "garden-02",
+    "number": "05",
+    "category": "เรือนสวน",
+    "categoryLabel": "สวน",
+    "sceneClass": "scene-garden",
+    "name": "เรือนสวนเงียบ",
+    "description": "ซ่อนตัวอยู่หลังแมกไม้ ฟังเสียงนกยามเช้าจากระเบียง",
+    "price": 2800,
+    "capacity": 3,
+    "quantity": 2,
+    "available": true
+  },
+  {
+    "id": "thatch-01",
+    "number": "03",
+    "category": "เรือนหลังคาจาก",
+    "categoryLabel": "หลังคาจาก",
+    "sceneClass": "scene-thatch",
+    "name": "เรือนหลังคาจาก",
+    "description": "สไตล์เรือนไทยดั้งเดิม อบอุ่นด้วยกลิ่นไม้และแสงตะเกียง",
+    "price": 3900,
+    "capacity": 4,
+    "quantity": 3,
+    "available": true
+  },
+  {
+    "id": "thatch-02",
+    "number": "06",
+    "category": "เรือนหลังคาจาก",
+    "categoryLabel": "หลังคาจาก",
+    "sceneClass": "scene-thatch",
+    "name": "เรือนจากริมทาง",
+    "description": "เรือนหลังใหญ่ เหมาะสำหรับครอบครัวหรือกลุ่มเพื่อน",
+    "price": 4600,
+    "capacity": 3,
+    "quantity": 3,
+    "available": true
+  }
+]
